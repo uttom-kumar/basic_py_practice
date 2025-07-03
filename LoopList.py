@@ -9,3 +9,11 @@ for i in StudentList :
 fruitList = ['mango', 'orange', 'banana']
 for item in range(len(fruitList)) :
     print(item)
+    print(fruitList[item])
+
+# use while loop
+list = ["apple", "banana", "cherry"]
+i = 0
+while i < len(list) :
+    print(list[i])
+    i = i + 1
